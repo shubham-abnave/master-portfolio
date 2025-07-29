@@ -22,7 +22,7 @@ const greeting = {
   title: "Shubham Abnave",
   logo_name: "ShubhamAbnave",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Engineer passionate about building robust systems, cloud solutions, and seamless user experiences.",
   resumeLink:
     "https://drive.google.com/file/d/16uDMkILSZP4G6uDJ3X7OCCLpZcCW9hpM/view?usp=sharing",
   portfolio_repository:
@@ -66,152 +66,208 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Designing and building REST APIs with NodeJS, ExpressJS, GoLang, and Java Spring Boot",
+        "⚡ Implementing concurrency, caching, and pagination for high-performance APIs",
+        "⚡ Integrating authentication, authorization, and serverless workflows",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
           skillName: "NodeJS",
           fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
+          style: { color: "#339933" },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
+          style: { color: "#000000" },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
+          skillName: "GoLang",
+          fontAwesomeClassname: "simple-icons:go",
+          style: { color: "#00ADD8" },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
+          skillName: "Java Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: { color: "#6DB33F" },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          skillName: "REST API",
+          fontAwesomeClassname: "simple-icons:swagger",
+          style: { color: "#85EA2D" },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: { color: "#3178C6" },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Frontend Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building scalable and responsive web applications using React and Angular",
+        "⚡ Implementing efficient state management and API integration",
+        "⚡ Creating seamless user experiences with Material UI and custom CSS",
+      ],
+      softwareSkills: [
+        {
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
+          style: { color: "#61DAFB" },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: { color: "#DD0031" },
+        },
+        {
+          skillName: "Tanstack Query",
+          fontAwesomeClassname: "simple-icons:reactquery",
+          style: { color: "#FF4154" },
+        },
+        {
+          skillName: "Material UI",
+          fontAwesomeClassname: "simple-icons:mui",
+          style: { color: "#007FFF" },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: { color: "#1572B6" },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: { color: "#F7DF1E", backgroundColor: "#000000" },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: { color: "#3178C6" },
+        },
+      ],
+    },
+
+    {
+      title: "Databases & ORM",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Advanced SQL query optimization and indexing (MySQL, MS SQL, Cloud Spanner)",
+        "⚡ ORM experience with Sequelize and JPA",
+        "⚡ Implementing robust data validation and transactional consistency",
+      ],
+      softwareSkills: [
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: { color: "#4479A1" },
+        },
+        {
+          skillName: "MS SQL",
+          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
+          style: { color: "#CC2927" },
+        },
+        {
+          skillName: "Cloud Spanner",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: { color: "#4285F4" },
+        },
+        {
+          skillName: "Sequelize",
+          fontAwesomeClassname: "simple-icons:sequelize",
+          style: { color: "#52B0E7" },
+        },
+        {
+          skillName: "JPA",
+          fontAwesomeClassname: "simple-icons:java",
+          style: { color: "#007396" },
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "simple-icons:database",
+          style: { color: "#003B57" },
+        },
+      ],
+    },
+    {
+      title: "Cloud & DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Deploying and managing applications on GCP and AWS",
+        "⚡ Building serverless and event-driven architectures (Cloud Functions, Lambda, Pub/Sub, SQS)",
+        "⚡ Containerization and orchestration using Docker and Kubernetes",
       ],
       softwareSkills: [
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
+          style: { color: "#4285F4" },
         },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
+          style: { color: "#FF9900" },
         },
         {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          style: { color: "#1488C6" },
         },
         {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          style: { color: "#326CE5" },
+        },
+        {
+          skillName: "Cloud Functions",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: { color: "#4285F4" },
+        },
+        {
+          skillName: "Lambda",
+          fontAwesomeClassname: "simple-icons:awslambda",
+          style: { color: "#FF9900" },
+        },
+      ],
+    },
+    {
+      title: "Messaging, Caching & Testing",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Implementing asynchronous communication with RabbitMQ, Kafka, and Pub/Sub",
+        "⚡ Caching strategies using Redis and nodecache",
+        "⚡ Comprehensive unit and integration testing with react-testing-library",
+      ],
+      softwareSkills: [
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "simple-icons:rabbitmq",
+          style: { color: "#FF6600" },
+        },
+        {
+          skillName: "Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
+          style: { color: "#231F20" },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style: { color: "#DC382D" },
+        },
+        {
+          skillName: "nodecache",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: { color: "#339933" },
+        },
+        {
+          skillName: "react-testing-library",
+          fontAwesomeClassname: "simple-icons:testinglibrary",
+          style: { color: "#E33332" },
         },
       ],
     },
